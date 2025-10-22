@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Greetings
-        run: echo "Hello wordl"
+        run: echo "Hello world"
       - name: Print Multiple lines
         run: |
           echo "First line"
           echo "Second line"
       - name: Print Goodbye
-      - run: echo "Goodbye!!"
+      - run: echo "Goodbye!!!"
